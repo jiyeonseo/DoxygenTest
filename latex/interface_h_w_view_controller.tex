@@ -1,0 +1,157 @@
+\hypertarget{interface_h_w_view_controller}{\section{H\-W\-View\-Controller Class Reference}
+\label{interface_h_w_view_controller}\index{H\-W\-View\-Controller@{H\-W\-View\-Controller}}
+}
+
+
+{\ttfamily \#import $<$H\-W\-View\-Controller.\-h$>$}
+
+Inheritance diagram for H\-W\-View\-Controller\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_h_w_view_controller}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(I\-B\-Action) -\/ \hyperlink{interface_h_w_view_controller_a03fef981b6ae5eccf671e0606899f3ce}{click\-Button\-:}
+\begin{DoxyCompactList}\small\item\em 출력하는 Text\-Field. \end{DoxyCompactList}\item 
+(I\-B\-Action) -\/ \hyperlink{interface_h_w_view_controller_a349c84487ddc73c2fadee8b574d672fa}{print\-All\-:}
+\begin{DoxyCompactList}\small\item\em 마우스 현재 좌표 얻어온다. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+N\-S\-Mutable\-String $\ast$ \hyperlink{interface_h_w_view_controller_a0ad2d93f9f72dfda058dc1d1812c8cc5}{test\-Mutable\-String}
+\begin{DoxyCompactList}\small\item\em test를 위한 Array값 \end{DoxyCompactList}\item 
+N\-S\-String $\ast$ \hyperlink{interface_h_w_view_controller_a50f08c7a9f502535f04568c5b6cb1f42}{test\-String}
+\item 
+N\-S\-Mutable\-Array $\ast$ \hyperlink{interface_h_w_view_controller_af8916c3750591d42ce991b5f237f955c}{test\-Array}
+\begin{DoxyCompactList}\small\item\em test를 위한 String값. \end{DoxyCompactList}\item 
+I\-B\-Outlet U\-I\-Text\-Field $\ast$ \hyperlink{interface_h_w_view_controller_a18a1f92002714422be85e23e7257d6ac}{input\-Test\-Field}
+\item 
+I\-B\-Outlet U\-I\-Text\-Field $\ast$ \hyperlink{interface_h_w_view_controller_afe4853256be255795cd235f795b100da}{output\-Text\-Field}
+\begin{DoxyCompactList}\small\item\em 입력받는 Text\-Field. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 12 of file H\-W\-View\-Controller.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_h_w_view_controller_a03fef981b6ae5eccf671e0606899f3ce}{\index{H\-W\-View\-Controller@{H\-W\-View\-Controller}!click\-Button\-:@{click\-Button\-:}}
+\index{click\-Button\-:@{click\-Button\-:}!HWViewController@{H\-W\-View\-Controller}}
+\subsubsection[{click\-Button\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (I\-B\-Action) click\-Button\-: 
+\begin{DoxyParamCaption}
+\item[{(id)}]{sender}
+\end{DoxyParamCaption}
+}}\label{interface_h_w_view_controller_a03fef981b6ae5eccf671e0606899f3ce}
+
+
+출력하는 Text\-Field. 
+
+마우스 현재 좌표 얻어온다.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \-: 마우스 x좌표값을 얻는 포인터 변수 \\
+\hline
+{\em y} & \-: 마우스 y좌표값을 얻는 포인터 변수 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 완료 
+\end{DoxyReturn}
+\begin{DoxyRemark}{Remarks}
+매개변수를 통해 좌표값을 반환한다. 
+\end{DoxyRemark}
+
+
+Definition at line 83 of file H\-W\-View\-Controller.\-m.
+
+\hypertarget{interface_h_w_view_controller_a349c84487ddc73c2fadee8b574d672fa}{\index{H\-W\-View\-Controller@{H\-W\-View\-Controller}!print\-All\-:@{print\-All\-:}}
+\index{print\-All\-:@{print\-All\-:}!HWViewController@{H\-W\-View\-Controller}}
+\subsubsection[{print\-All\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (I\-B\-Action) print\-All\-: 
+\begin{DoxyParamCaption}
+\item[{(id)}]{sender}
+\end{DoxyParamCaption}
+}}\label{interface_h_w_view_controller_a349c84487ddc73c2fadee8b574d672fa}
+
+
+마우스 현재 좌표 얻어온다. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \-: 마우스 x좌표값을 얻는 포인터 변수 \\
+\hline
+{\em y} & \-: 마우스 y좌표값을 얻는 포인터 변수 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 완료 
+\end{DoxyReturn}
+\begin{DoxyRemark}{Remarks}
+매개변수를 통해 좌표값을 반환한다. 
+\end{DoxyRemark}
+
+
+Definition at line 98 of file H\-W\-View\-Controller.\-m.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_h_w_view_controller_a18a1f92002714422be85e23e7257d6ac}{\index{H\-W\-View\-Controller@{H\-W\-View\-Controller}!input\-Test\-Field@{input\-Test\-Field}}
+\index{input\-Test\-Field@{input\-Test\-Field}!HWViewController@{H\-W\-View\-Controller}}
+\subsubsection[{input\-Test\-Field}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (I\-B\-Outlet U\-I\-Text\-Field$\ast$) input\-Test\-Field\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}}\label{interface_h_w_view_controller_a18a1f92002714422be85e23e7257d6ac}
+
+
+Definition at line 21 of file H\-W\-View\-Controller.\-h.
+
+\hypertarget{interface_h_w_view_controller_afe4853256be255795cd235f795b100da}{\index{H\-W\-View\-Controller@{H\-W\-View\-Controller}!output\-Text\-Field@{output\-Text\-Field}}
+\index{output\-Text\-Field@{output\-Text\-Field}!HWViewController@{H\-W\-View\-Controller}}
+\subsubsection[{output\-Text\-Field}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (I\-B\-Outlet U\-I\-Text\-Field$\ast$) output\-Text\-Field\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}}\label{interface_h_w_view_controller_afe4853256be255795cd235f795b100da}
+
+
+입력받는 Text\-Field. 
+
+
+
+Definition at line 23 of file H\-W\-View\-Controller.\-h.
+
+\hypertarget{interface_h_w_view_controller_af8916c3750591d42ce991b5f237f955c}{\index{H\-W\-View\-Controller@{H\-W\-View\-Controller}!test\-Array@{test\-Array}}
+\index{test\-Array@{test\-Array}!HWViewController@{H\-W\-View\-Controller}}
+\subsubsection[{test\-Array}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Mutable\-Array $\ast$) test\-Array\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}}\label{interface_h_w_view_controller_af8916c3750591d42ce991b5f237f955c}
+
+
+test를 위한 String값. 
+
+
+
+Definition at line 15 of file H\-W\-View\-Controller.\-h.
+
+\hypertarget{interface_h_w_view_controller_a0ad2d93f9f72dfda058dc1d1812c8cc5}{\index{H\-W\-View\-Controller@{H\-W\-View\-Controller}!test\-Mutable\-String@{test\-Mutable\-String}}
+\index{test\-Mutable\-String@{test\-Mutable\-String}!HWViewController@{H\-W\-View\-Controller}}
+\subsubsection[{test\-Mutable\-String}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Mutable\-String $\ast$) test\-Mutable\-String\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}}\label{interface_h_w_view_controller_a0ad2d93f9f72dfda058dc1d1812c8cc5}
+
+
+test를 위한 Array값 
+
+test를 위한 Mutable\-String값 
+
+Definition at line 16 of file H\-W\-View\-Controller.\-h.
+
+\hypertarget{interface_h_w_view_controller_a50f08c7a9f502535f04568c5b6cb1f42}{\index{H\-W\-View\-Controller@{H\-W\-View\-Controller}!test\-String@{test\-String}}
+\index{test\-String@{test\-String}!HWViewController@{H\-W\-View\-Controller}}
+\subsubsection[{test\-String}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) test\-String\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}}\label{interface_h_w_view_controller_a50f08c7a9f502535f04568c5b6cb1f42}
+
+
+Definition at line 14 of file H\-W\-View\-Controller.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Hello\-World\-Test/\hyperlink{_h_w_view_controller_8h}{H\-W\-View\-Controller.\-h}\item 
+Hello\-World\-Test/\hyperlink{_h_w_view_controller_8m}{H\-W\-View\-Controller.\-m}\end{DoxyCompactItemize}
